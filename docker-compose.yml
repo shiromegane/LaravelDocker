@@ -1,0 +1,46 @@
+version: '3'
+services:
+  web:
+    container_name: laravel_web
+    build: ./docker/web
+    ports:
+      - 80:80
+      - 443:443
+    links:
+      - db
+      - redis
+    depends_on:
+      - db
+      - redis
+    volumes:
+      - .:/app
+      - ./docker/web/httpd.conf:/etc/httpd/conf/httpd.conf
+      - ./docker/web/vhosts.conf:/etc/httpd/conf.d/vhosts.conf
+      - ./docker/web/log:/var/log/httpd
+    dns:
+      - 1.1.1.1
+      - 1.0.0.1
+      - 8.8.8.8
+      - 9.9.9.9
+    environment:
+      - "TZ=Japan"
+    tty: true
+    stdin_open: true
+  db:
+    container_name: laravel_db
+    image: mysql
+    volumes:
+      - ./docker/db/data:/var/lib/mysql
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    tty: true
+    stdin_open: true
+  redis:
+    container_name: laravel_redis
+    image: redis:alpine
+    ports:
+      - 6379:6379
+    tty: true
+    stdin_open: true
