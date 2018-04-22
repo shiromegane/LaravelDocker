@@ -1,0 +1,19 @@
+[Thu Apr 19 02:36:19.325923 2018] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Thu Apr 19 02:36:19.355703 2018] [core:warn] [pid 1] AH00111: Config variable ${APP_ROOT} is not defined
+[Thu Apr 19 02:36:19.361463 2018] [auth_digest:notice] [pid 1] AH01757: generating secret for digest authentication ...
+[Thu Apr 19 02:36:19.362743 2018] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Thu Apr 19 02:36:19.400495 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) PHP/7.2.4 configured -- resuming normal operations
+[Thu Apr 19 02:36:19.401036 2018] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu Apr 19 02:37:26.367782 2018] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Thu Apr 19 02:37:34.594824 2018] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Thu Apr 19 02:37:34.649918 2018] [auth_digest:notice] [pid 1] AH01757: generating secret for digest authentication ...
+[Thu Apr 19 02:37:34.653543 2018] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Thu Apr 19 02:37:34.697204 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) PHP/7.2.4 configured -- resuming normal operations
+[Thu Apr 19 02:37:34.697584 2018] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu Apr 19 02:46:14.555167 2018] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Thu Apr 19 03:22:34.695651 2018] [suexec:notice] [pid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Thu Apr 19 03:22:34.755753 2018] [auth_digest:notice] [pid 1] AH01757: generating secret for digest authentication ...
+[Thu Apr 19 03:22:34.757301 2018] [lbmethod_heartbeat:notice] [pid 1] AH02282: No slotmem from mod_heartmonitor
+[Thu Apr 19 03:22:34.795346 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.6 (CentOS) PHP/7.2.4 configured -- resuming normal operations
+[Thu Apr 19 03:22:34.797755 2018] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sun Apr 22 19:11:20.880293 2018] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down

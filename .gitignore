@@ -12,5 +12,5 @@ yarn-error.log
 .env
 .DS_Store
 /.idea
-/docker/db/data/*
-/docker/web/log/*
+/containers/db/data/*
+/containers/web/log/*

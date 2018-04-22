@@ -2,7 +2,7 @@ version: '3'
 services:
   web:
     container_name: laravel_web
-    build: ./docker/web
+    build: ./containers/web
     ports:
       - 80:80
       - 443:443
@@ -14,9 +14,9 @@ services:
       - redis
     volumes:
       - .:/app
-      - ./docker/web/httpd.conf:/etc/httpd/conf/httpd.conf
-      - ./docker/web/vhosts.conf:/etc/httpd/conf.d/vhosts.conf
-      - ./docker/web/log:/var/log/httpd
+      - ./containers/web/httpd.conf:/etc/httpd/conf/httpd.conf
+      - ./containers/web/vhosts.conf:/etc/httpd/conf.d/vhosts.conf
+      - ./containers/web/log:/var/log/httpd
     dns:
       - 1.1.1.1
       - 1.0.0.1
@@ -30,7 +30,7 @@ services:
     container_name: laravel_db
     image: mysql
     volumes:
-      - ./docker/db/data:/var/lib/mysql
+      - ./containers/db/data:/var/lib/mysql
     ports:
       - 3306:3306
     environment:

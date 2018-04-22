@@ -1,0 +1,7 @@
+172.18.0.1 - - [19/Apr/2018:02:36:30 +0900] "GET / HTTP/1.1" 200 2321 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+172.18.0.1 - - [19/Apr/2018:02:37:22 +0900] "-" 408 - "-" "-"
+172.18.0.1 - - [19/Apr/2018:02:37:22 +0900] "-" 408 - "-" "-"
+172.18.0.1 - - [19/Apr/2018:02:37:49 +0900] "GET / HTTP/1.1" 200 2321 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+172.18.0.1 - - [19/Apr/2018:03:22:37 +0900] "GET / HTTP/1.1" 200 2321 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+172.18.0.1 - - [21/Apr/2018:01:48:55 +0900] "GET /favicon.ico HTTP/1.1" 404 17 "http://laravel.vm/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+172.18.0.1 - - [22/Apr/2018:14:03:21 +0900] "GET / HTTP/1.1" 200 2321 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
